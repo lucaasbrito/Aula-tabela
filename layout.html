@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout de site</title>
+    <style>
+      h1 {
+        text-align: center;
+        margin: 0;
+        line-height: 100px;
+        font-family: sans-serif;
+      }
+      table {
+        width: 100%;
+        height: 100vh;
+        border-collapse: collapse;
+      }
+      td {
+        border: 1px solid #000000;
+        font-family: sans-serif;
+      }
+      .topo {
+        height: 100px;
+        text-align: center;
+      }
+      .menu {
+        width: 200px;
+        text-align: center;
+      }
+      .conteudo {
+        text-align: center;
+      }
+      .rodape {
+        height: 50px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Layout de site</h1>
+    <table>
+      <tr>
+        <td colspan="2" class="topo">Topo</td>
+      </tr>
+
+      <tr>
+        <td class="menu">Menu</td>
+        <td class="conteudo">Conteudo</td>
+      </tr>
+
+      <tr>
+        <td colspan="2" class="rodape">Rodape</td>
+      </tr>
+    </table>
+  </body>
+</html>
